@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "camera_shashin"
 include ':app'
+include ':UIComponents'
+include ':network'
