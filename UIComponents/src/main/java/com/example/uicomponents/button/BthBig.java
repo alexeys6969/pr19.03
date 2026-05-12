@@ -7,7 +7,8 @@ import android.view.LayoutInflater;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.uicomponents.R;
+import com.example.uicomponents.button.BthBig;
+import com.yourpackage.uicomponents.R;
 
 public class BthBig extends BthCustom{
     public BthBig(@NonNull Context context) {

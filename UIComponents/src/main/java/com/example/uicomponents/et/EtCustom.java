@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import com.example.uicomponents.R;
+import com.yourpackage.uicomponents.R;
 
 public class EtCustom extends ConstraintLayout {
     public EditText Et;

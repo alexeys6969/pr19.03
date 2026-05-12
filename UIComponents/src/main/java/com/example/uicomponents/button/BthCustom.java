@@ -10,7 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import com.example.uicomponents.R;
+import com.example.uicomponents.button.BthCustom;
+import com.yourpackage.uicomponents.R;
 
 public class BthCustom extends ConstraintLayout {
     public Button Bth;
