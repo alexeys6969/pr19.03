@@ -47,6 +47,7 @@ public class ProductCreate extends MyAsyncTask {
             Connection.Response response = Jsoup.connect(Settings.URL + "/api/product/create")
                     .ignoreContentType(true)
                     .ignoreHttpErrors(true)
+                    .header("Content-Type", "multipart/form-data")
                     .method(Connection.Method.POST)
                     .header("token", token)
                     .data(params)
